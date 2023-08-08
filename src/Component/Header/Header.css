@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid blue;
+  width: 100%;
+  background-color: #827a7a ;
+  top: 0;
+  position: fixed;
+  left: 0;
+  align-items: center;
+}
+.imga{
+
+}
+img{
+  /* max-width: 50%; */
+
+}
+

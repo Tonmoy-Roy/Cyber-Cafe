@@ -1,0 +1,42 @@
+[
+    {
+        "id": "Audrey Jackson",
+        "image": "../img/coding2.jpg",
+        "profile_pic": "https://avatars.githubusercontent.com/u/123456789?v=4",
+        "title": "Coding for Fun: How to Learn to Code and Enjoy the Process",
+        "description": "The new ULTRABOOST 22 shoes are here, and they're better than ever. With a new design and improved performance, these shoes are perfect for any activity.",
+        "para": "The new ULTRABOOST 22 shoes feature a new Primeknit+ upper that is more supportive and comfortable than ever before. The shoes also have a new midsole that provides more energy return and a more responsive ride.",
+        "time": "10 minutes ago",
+        "post_time": "2 days ago"
+    },
+    {
+        "id": "Ethan Nguyen",
+        "image": "../img/coding1.jpg",
+        "profile_pic": "https://avatars.githubusercontent.com/u/123456780?v=4",
+        "title": "Advanced Coding Techniques for Experienced Developers",
+        "description": "The new MacBook Pro is here, and it's the most powerful MacBook ever. With a new M2 chip, a Liquid Retina XDR display, and a longer battery life, this is the MacBook for everyone.",
+        "para": "The new MacBook Pro is the perfect machine for creative professionals and power users alike. With its powerful M2 chip, it can handle even the most demanding tasks with ease. The Liquid Retina XDR display is simply stunning, and the longer battery life means you can work all day without having to worry about running out of juice.",
+        "time": "30 minutes ago",
+        "post_time": "1 day ago"
+    },
+    {
+        "id": "Leila Zhang",
+        "image": "../img/coding3.jpg",
+        "profile_pic": "https://avatars.githubusercontent.com/u/123456771?v=4",
+        "title": "How to Become a Professional Programmer",
+        "description": "The new Pixel 6 Pro is here, and it's the best Pixel yet. With a new design, a powerful Google Tensor chip, and a great camera system, this is the phone to beat.",
+        "para": "The new Pixel 6 Pro is a major upgrade over the previous generation. It has a new design that is both sleek and stylish. The Google Tensor chip is the fastest chip ever put in a Pixel phone, and it makes everything from gaming to photo editing feel smooth and responsive. The camera system is also top-notch, with a new 50MP main sensor that takes stunning photos in any lighting condition.",
+        "time": "1 hour ago",
+        "post_time": "3 days ago"
+    },
+    {
+        "id": "Mateo Perez",
+        "image": "../img/coding.jpg",
+        "profile_pic": "https://avatars.githubusercontent.com/u/123456762?v=4",
+        "title": "Coding for Self-Improvement: How to Use Coding to Improve Your Life",
+        "description": "The new Xbox Series X is here, and it's the most powerful console ever. With a custom AMD Zen 2 CPU and a custom RDNA 2 GPU, this console can handle even the most demanding games with ease.",
+        "para": "The new Xbox Series X is the perfect console for gamers who want the best possible performance. It's also a great choice for those who want to future-proof their gaming experience. The console is backwards compatible with all Xbox One games, so you can still play your old favorites. And it's ready for the next generation of games, with support for up to 8K resolution and 120fps gameplay.",
+        "time": "2 hours ago",
+        "post_time": "4 days ago"
+    }
+]
