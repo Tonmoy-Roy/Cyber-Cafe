@@ -9,13 +9,13 @@ import Result from './Component/Result/Result'
 import Cafe from './Component/Cafe/Cafe'
 
 function App() {
-  return (
-     <div className='App'>
-        <Header></Header>
-        {/* <Cart></Cart>  */}
-        <Cafe></Cafe>
-        <Result></Result>   
-     </div>
-  )
+   return (
+      <div className='App'>
+         <Header></Header>
+         {/* <Cart></Cart> */}
+         <Cafe></Cafe>
+         <Result></Result>
+      </div>
+   )
 }
 export default App

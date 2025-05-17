@@ -1,22 +1,15 @@
-.result{
-    background-color: rgba(255, 153, 0, 0.3);
+.result {
+    background-color: rgb(72, 61, 45);
     width: 400px;
     height: 60px;
-    top:0;
-    /* margin-left: 55vw;
-    margin-top: -110vh; */
-    border: 1px solid blue;
-    margin-bottom: 20px;
-    /* align-items: center; */
+    border-radius: 5px;
+    margin-left: 20px;
+    position: sticky;
+    top: 132px;
 }
-.text{
-    /* border: 1px solid darksalmon; */
-}
-.bookmark{
-    /* margin-left: 55vw; */
-    border: 1px solid blue;
+
+.bookmark {
     width: 400px;
-    /* background-color: #EFEFEF; */
     text-align: left;
     padding-left: 10px;
 }

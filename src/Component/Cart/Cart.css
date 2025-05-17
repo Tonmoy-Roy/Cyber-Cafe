@@ -1,17 +1,18 @@
 .card {
-    /* border: 1px solid blue; */
-    height: 60vh;
+    height: 63vh;
     width: 30vw;
     margin-left: 10vw;
     margin-top: 5px;
     display: flex;
-    border: 1px solid gray;
     border-radius: 5px;
+    margin-bottom: 2vh;
+    background-color:thistle;
 }
 
 .size {
     width: 515px;
-    height: 300px;
+    height: 250px;
+    border-radius: 5px;
 }
 
 .user-pp {
@@ -23,7 +24,14 @@
     margin-right: 5px;
     margin-top: -10px;
 }
-
+.icon_1{
+    height: 3vh;
+    width: 1vw;
+}
+.icoc_1_place{
+    text-align: right;
+    margin-right: 1vw;
+}
 .imph {
     display: flex;
     align-items: center;
@@ -32,7 +40,6 @@
 }
 
 .name {
-    /* border: 1px solid blue; */
     bottom: 10px;
     width: 8vw;
 }
@@ -41,21 +48,19 @@
     position: relative;
     top: -30px;
     margin-bottom: 20px;
-    /* border: 1px solid red; */
     font-size: small;
 }
 
 .read_time {
     font-size: small;
     float: right;
-    /* border: 1px solid blue; */
-    margin-left: 12vw;
+    margin-left: 11vw;
     width: 8vw;
     margin-top: -10px;
+    gap: 10px;
 }
 
 .name_time {
-    /* border: 1px solid rgb(41, 171, 138); */
     margin-top: -15px;
     display: grid;
     height: 9vh;

@@ -3,7 +3,7 @@ import './Result.css'
 const Result = (props) => {
     return (
         <div>
-            
+
         </div>
     );
 };

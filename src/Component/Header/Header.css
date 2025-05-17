@@ -1,16 +1,17 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   width: 100%;
   background-color: #827a7a ;
   top: 0;
   position: fixed;
   left: 0;
   align-items: center;
+  height: 12vh;
 }
 .imga{
-
+  height: 9vh;
 }
 img{
   /* max-width: 50%; */
