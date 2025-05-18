@@ -48,10 +48,8 @@
 }
 
 .post_time {
-    position: relative;
-    top: -30px;
-    margin-bottom: 20px;
     font-size: small;
+    margin-top: -2vh;
 }
 
 .read_time {
