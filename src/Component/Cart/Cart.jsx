@@ -1,13 +1,13 @@
 import React from 'react';
 import './Cart.css';
-const Cart = (props) => {
+const Cart = ({ cafe = {}, handleAddToCart }) => {
     // console.log(props);
-    const img = props.cafe.image;
-    const name = props.cafe.id;
-    const time = props.cafe.post_time;
-    const title = props.cafe.title;
-    const read_time = props.cafe.time;
-    const handleAddToCart = props.handleAddToCart;
+    const img = cafe.image;
+    const name = cafe.id;
+    const time = cafe.post_time;
+    const title = cafe.title;
+    const read_time = cafe.time;
+    // const handleAddToCartt = props.handleAddToCart;
     return (
         <div className='card'>
             <div className='user-pp'>
@@ -21,14 +21,15 @@ const Cart = (props) => {
                     <div className='read_time'>
                         <p>Watch Time : {read_time} </p>
                         <div className='icoc_1_place'>
-                            <img className='icon_1' src="../../../img/icons8-bookmark-50.png" alt="" />
+                            <button className='btn-hov'><img className='icon_1' src="../../../img/icons8-bookmark-50.png" alt="" /></button>
                         </div>
                     </div>
                 </div>
                 <div className='title'>
                     <h3>{title}</h3>
                 </div>
-                <button onClick={() => handleAddToCart(23)}>Mark As Read</button>
+                <button onClick={() => handleAddToCart(cafe)}>Mark As Read</button> 
+                {/* cafe er vitor sob data ache */}
             </div>
         </div>
     );

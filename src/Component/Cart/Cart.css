@@ -1,12 +1,12 @@
 .card {
-    height: 63vh;
+    height: 65vh;
     width: 30vw;
     margin-left: 10vw;
     margin-top: 5px;
     display: flex;
     border-radius: 5px;
     margin-bottom: 2vh;
-    background-color:thistle;
+    background-color: thistle;
 }
 
 .size {
@@ -24,14 +24,17 @@
     margin-right: 5px;
     margin-top: -10px;
 }
-.icon_1{
+
+.icon_1 {
     height: 3vh;
     width: 1vw;
 }
-.icoc_1_place{
+
+.icoc_1_place {
     text-align: right;
     margin-right: 1vw;
 }
+
 .imph {
     display: flex;
     align-items: center;
@@ -66,6 +69,12 @@
     height: 9vh;
 }
 
-.title {
-    /* border: 1px solid green; */
+.btn-hov {
+    border-radius: 5px;
+    background-color: #2980b9;
+}
+
+.btn-hov:hover {
+    background-color: green;
+    /* Darker shade on hover */
 }

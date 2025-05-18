@@ -1,20 +1,45 @@
-.cafe{
+.cafe {
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 45vw;
     margin-left: 12vw;
 }
-.map{
+
+.map {
     margin-bottom: 60px;
 }
-.text{
+
+.text {
     height: 5vh;
     color: white;
+    margin-left: 1vw;
+
 }
-.text1{
+
+.text1 {
     height: 75vh;
     background-color: rgb(72, 61, 45);
     border-radius: 5px;
     color: white;
+
+}
+
+.tex {
+    margin-left: 1vw;
+}
+
+.result {
+    background-color: rgb(72, 61, 45);
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    margin-left: 20px;
+    position: sticky;
+    top: 132px;
+    text-align: left;
+
+}
+.Book_title{
+    margin-left: 15px;
 }

@@ -12,7 +12,7 @@ function App() {
    return (
       <div className='App'>
          <Header></Header>
-         {/* <Cart></Cart> */}
+         {/* <Cart></Cart> eta chara kaj krtese.but how ??? */} 
          <Cafe></Cafe>
          <Result></Result>
       </div>

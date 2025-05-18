@@ -5,33 +5,31 @@ import Result from '../Result/Result';
 
 const Cafe = () => {
     const [Cafes, setCafes] = useState([]);
-    const [result, setResult] = useState([]);
+    const [carttitle, setCarttitle] = useState([]);
     useEffect(() => {
         fetch('cafes.json')
             .then(response => response.json())
             .then(data => setCafes(data))
     }, []);
-    const handleAddToCart = (cart) => {
-        const newResult = [...result, cart];
-        setResult(newResult);
+    // bookmark , button_cafe(Cart,jsx) theke data collect krse
+    const handleAddToCart = (bookmark) => { 
+        const newcart = [...carttitle, bookmark.title];
+        setCarttitle(newcart);
     }
     return (
         <div className='cafe'>
             <div className='map'>
                 {
-                    Cafes.map(cafe => <Cart
-                        key={cafe.key}
-                        cafe={cafe}
-                        handleAddToCart={handleAddToCart}
+                    Cafes.map(cafe => <Cart key={cafe.key} cafe={cafe} handleAddToCart={handleAddToCart}
                     ></Cart>)
                 }
             </div>
             <div className='result'>
-                <h3 className='text'>Spent time on Watch : </h3>
-                <h3 className='text1'>Bookmarked Blogs : </h3>
-            </div>
-            <div className="result-container">
-                <Result result={result}></Result>
+                <h3 className='text'>Spent time on Watch : { }</h3>
+                <div className='text1'>
+                    <h3 className='tex'>Bookmarked Blogs : {carttitle.length}</h3>
+                    {carttitle.map(title => <p class="Book_title">{title}</p>)}
+                </div>
             </div>
         </div>
     );
