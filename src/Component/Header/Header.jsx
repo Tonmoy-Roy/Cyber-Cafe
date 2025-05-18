@@ -7,7 +7,7 @@ const Header = () => {
                 <h2>Cyber-Cafe</h2>
             </div>
             <div >
-                <img className='imga' src="../../../img/icons8-male-user-100.png" alt="" />
+                <img className='imga' src="https://img.icons8.com/?size=96&id=Hj21JM30swCm&format=png" alt="" />
             </div>
         </div>
     );

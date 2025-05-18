@@ -11,7 +11,7 @@ const Cart = ({ cafe = {}, handleAddToCart}) => {
             <div className='user-pp'>
                 <img className='size' src={img} alt="" />
                 <div className='imph'>
-                    <img className='icon' src="../../../img/icons8-male-user-100.png" alt="" />
+                    <img className='icon' src="https://img.icons8.com/?size=96&id=Hj21JM30swCm&format=png" alt="" />
                     <div className='name_time'>
                         <p className='name'>{name}</p>
                         <p className='post_time'>{time}</p>
@@ -19,7 +19,7 @@ const Cart = ({ cafe = {}, handleAddToCart}) => {
                     <div className='read_time'>
                         <p>Watch Time : {watch_time} </p>
                         <div className='icoc_1_place'>
-                            <button className='btn-hov'><img className='icon_1' src="../../../img/icons8-bookmark-50.png" alt="" /></button>
+                            <button className='btn-hov'><img className='icon_1' src="https://img.icons8.com/?size=100&id=26083&format=png" alt="" /></button>
                         </div>
                     </div>
                 </div>
